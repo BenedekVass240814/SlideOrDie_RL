@@ -1,0 +1,48 @@
+Settings: Speed: 20 Max score: 10
+Randomness: 0 Delay: 0 Chase: False
+Time played: 8.89 mp
+Score: 0
+Average time per score: 0.00
+Enemy score: 10
+Average time per score: 0.89
+
+Settings: Speed: 17 Max score: 10
+Randomness: 0.2 Delay: 3 Chase: True
+Time played: 84.10 mp
+Score: 10
+Average time per score: 8.41
+Enemy score: 2
+Average time per score: 42.05
+
+Settings: Speed: 12 Max score: 10
+Randomness: 0.2 Delay: 2 Chase: True
+Time played: 54.35 mp
+Score: 10
+Average time per score: 5.44
+Enemy score: 1
+Average time per score: 54.35
+
+Settings: Speed: 12 Max score: 10
+Randomness: 0.2 Delay: 2 Chase: True
+Time played: 29.53 mp
+Score: 10
+Average time per score: 2.95
+Enemy score: 1
+Average time per score: 29.53
+
+Settings: Speed: 12 Max score: 10
+Randomness: 0.2 Delay: 2 Chase: True
+Time played: 106.72 mp
+Score: 10
+Average time per score: 10.67
+Enemy score: 0
+Average time per score: 0.00
+
+Settings: Speed: 19 Max score: 10
+Randomness: 0 Delay: 0 Chase: False
+Time played: 9.39 mp
+Score: 0
+Average time per score: 0.00
+Enemy score: 10
+Average time per score: 0.94
+

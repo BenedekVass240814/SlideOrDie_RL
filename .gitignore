@@ -1,0 +1,5 @@
+/original_game/rl_training/__pycache__
+/original_game/modules/__pycache__
+/original_game/rl_training/checkpoints
+/original_game/rl_training/checkpoints_v2
+/original_game/rl_training/wandb

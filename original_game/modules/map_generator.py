@@ -8,10 +8,25 @@ Point = namedtuple("Point", "x, y")
 
 
 class MapGenerator:
-    def __init__(self, w=1600, h=900):
+    def __init__(self, w=1600, h=900, seed=None, wall_density=0.30):
+        """
+        Generate a random map.
+        
+        Args:
+            w: Map width in pixels
+            h: Map height in pixels
+            seed: Random seed for reproducibility (None = random)
+            wall_density: Probability of a cell being a wall (0.0-1.0)
+        """
         self.h = h
         self.w = w
-        p = 0.30
+        
+        # Set random seed if provided
+        if seed is not None:
+            np.random.seed(seed)
+            random.seed(seed)
+        
+        p = wall_density
         self.map = np.random.choice(a=[True, False],
                                     size=(int(self.w / BLOCK_SIZE), int(self.h / BLOCK_SIZE)),
                                     p=(p, 1 - p))
